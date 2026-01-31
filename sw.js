@@ -1,0 +1,1 @@
+"use strict";self.importScripts("https://cdn.jsdelivr.net/npm/sw-toolbox@3.6.0/sw-toolbox.js"),self.toolbox.options.debug=!1,self.toolbox.options.networkTimeoutSeconds=1,self.toolbox.router.get("/(.*)",self.toolbox.cacheFirst,{cache:{name:"asset-180503",maxEntries:100}});
